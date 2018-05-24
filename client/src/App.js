@@ -34,8 +34,8 @@ class App extends Component {
                                         <Route exact path="/boxer/:id" component={Single}/>
                                         <Route exact path="/search/:name" component={Search}/>
                                         <Route exact path="/update/:id" component={Update}/>
-                                        <Route exact path="/discover" component={List}/>
-                                        <Route exact path="/dashboard" component={Discover}/>
+                                        <Route exact path="/discover" component={Discover}/>
+                                        <Route exact path="/dashboard" component={Dashboard}/>
                                    </div>
                               </div>
                          </div>
