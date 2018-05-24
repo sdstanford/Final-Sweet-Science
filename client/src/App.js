@@ -12,7 +12,7 @@ import Search from './components/Search';
 import Champions from './components/Champions';
 import Ratings from './components/Ratings';
 import Home from "./components/auth/Home";
-import Discover from "./pages/Discover";
+import List from "./components/List";
 import './App.css'
 // import ali from "./images/ali.jpg";
 
@@ -34,7 +34,7 @@ class App extends Component {
                                         <Route exact path="/boxer/:id" component={Single}/>
                                         <Route exact path="/search/:name" component={Search}/>
                                         <Route exact path="/update/:id" component={Update}/>
-                                        <Route exact path="/discover" component={Discover}/>
+                                        <Route exact path="/discover" component={List}/>
                                         <Route exact path="/dashboard" component={Dashboard}/>
                                    </div>
                               </div>

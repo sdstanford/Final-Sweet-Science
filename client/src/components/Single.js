@@ -17,7 +17,7 @@ class Single extends React.Component {
         console.log(this.props.match.params.id);
 
         fetch(`http://localhost:5000/api/boxers/delete/${this.props.match.params.id}`, {method: 'DELETE'})
-            .then(res => console.log(res))
+            .then(res => res.json())
             .catch(err => console.log(err));
 
         this.props.history.push('/');
@@ -46,8 +46,8 @@ class Single extends React.Component {
         fetch(`http://localhost:5000/api/boxers/${this.props.match.params.id}`, {method: 'GET'})
             .then(res => res.json())
             .then(boxer => {
-                this.setState({boxer: boxer});
-                console.log(boxer);
+                this.setState({boxer: boxer})
+                // console.log(boxer);
             })
             .catch(err => console.log(err));
     }
