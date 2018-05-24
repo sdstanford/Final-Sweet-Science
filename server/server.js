@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
 });
 // DB config
 // connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/boxingData");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/boxingData");
 const db = mongoose.connection;
 
 app.use(passport.initialize());
