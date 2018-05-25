@@ -5,12 +5,14 @@ import List from './List';
 class Home extends Component {
 
     render() {
-        return(
+        return(  
             <div>
+                <br/>
                 <div className="col-md-4">
                     <Profile/>
                 </div>
                 <div className="col-md-8">
+                <br/>
                     <List/>
                     {/* <Link to="/boxer/123">single</Link> */}
                 </div>

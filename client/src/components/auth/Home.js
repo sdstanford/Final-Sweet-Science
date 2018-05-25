@@ -18,19 +18,22 @@ class Home extends Component {
 
     render() {
         return(      
-            <div className = "row">
+            <div className = "hom-row">
                 <div className = "body col-xs-12 col-md-4 signIn">
                     <div>
-                        <h3>Login or register to get started!</h3>
+                        <h3>Login or Register to get started!</h3>
+                        <br/>
                         <div className="col-md-6">
                             <Login />
                         </div>
+                        <br/>
                         <div className="col-md-6">
                             <Register />
                         </div>
                     </div>
                 </div>
                 <div className="col-xs-12 col-md-8">
+                <br/><br/><br/>
                 <table className="table">
                     <thead>
                         <tr>
@@ -45,7 +48,7 @@ class Home extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>heavyweight</td>
+                            <td>Heavyweight</td>
                             <td valign="top"  style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/659461" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -144,7 +147,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>cruiserweight</td>
+                            <td>Cruiserweight</td>
                             <td valign="top"  style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/659772" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -243,7 +246,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td style={{paddingTop: '50px'}}>light heavyweight</td>
+                            <td style={{paddingTop: '50px'}}>Light Heavyweight</td>
                             <td>
                                 <div className="pull-left">
                                     <a>
@@ -336,7 +339,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td style={{paddingTop: '50px'}}>super middleweight</td>
+                            <td style={{paddingTop: '50px'}}>Super Middleweight</td>
                             <td>
                                 <div className="pull-left">
                                     <a>
@@ -429,7 +432,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>middleweight</td>
+                            <td>Middleweight</td>
                             <td valign="top">
                                             <a href="/en/boxer/348759" className="personLink">
                                 <div style={{float: 'left'}}><div className="flag mx"></div></div>
@@ -521,7 +524,7 @@ class Home extends Component {
                           </td>
                         </tr>
                         <tr>
-                            <td>super welterweight</td>
+                            <td>Super Welterweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/625960" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -620,7 +623,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>welterweight</td>
+                            <td>Welterweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/635000" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -695,7 +698,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>super lightweight</td>
+                            <td>Super Lightweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/447121" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -770,7 +773,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>lightweight</td>
+                            <td>Lightweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/659771" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -857,7 +860,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>super featherweight</td>
+                            <td>Super Featherweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/553222" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -932,7 +935,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>featherweight</td>
+                            <td>Featherweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/374624" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -1019,7 +1022,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>super bantamweight</td>
+                            <td>Super Bantamweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/611983" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -1106,7 +1109,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>bantamweight</td>
+                            <td>Bantamweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/359270" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -1193,7 +1196,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>super flyweight</td>
+                            <td>Super Flyweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/528191" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -1280,7 +1283,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>flyweight</td>
+                            <td>Flyweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/215599" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -1355,7 +1358,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>light flyweight</td>
+                            <td>Light Flyweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/692967" className="personLink">
                                     <div style={{float: 'left'}}>
@@ -1442,7 +1445,7 @@ class Home extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td>minimumweight</td>
+                            <td>Minimumweight</td>
                             <td valign="top" style={{paddingTop: '5px'}}>
                                 <a href="/en/boxer/383177" className="personLink">
                                     <div style={{float: 'left'}}>
