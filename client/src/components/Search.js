@@ -22,16 +22,17 @@ class Search extends Component {
     }
 
     render() {
-        return(
-            <div>
-                <h3>{this.state.boxer.name}</h3>
-                <div className="col-md-4">
-                    <img src="http://static.boxrec.com/boxers/10.jpeg" alt=""/>
-                </div>
-                <div className="col-md-4">
-                    <div style={{marginTop: '50px'}}>
-                        <table className="table table-stripped">
-                            <tbody>
+        if(this.state.boxer){
+            return (
+                <div>
+                    <h3>{this.state.boxer.name}</h3>
+                    <div className="col-md-4">
+                        <img src={this.state.boxer.image} alt="image"/>
+                    </div>
+                    <div className="col-md-4">
+                        <div style={{marginTop: '50px'}}>
+                            <table className="table table-stripped">
+                                <tbody>
                                 <tr>
                                     <td><b>global ID</b></td>
                                     <td>{this.state.boxer.globalId}</td>
@@ -52,34 +53,21 @@ class Search extends Component {
                                     <td><b>nationality</b></td>
                                     <td>{this.state.boxer.nationality}</td>
                                 </tr>
-                            </tbody>
-                        </table>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
-        )
+            )
+        }
+        else {
+            return(
+                <div>
+                    No boxer found
+                </div>
+            )
+        }
     }
 }
 
 export default Search;
-
-// import React, {  Component } from 'react';
-// import Search from '../../components/Search';
-
-// class Search extends Component {
-//     constructor (props) {
-//         super(props);
-//     }
-//     render() {
-//         return(
-//             <div>
-//                 <div className="col-md-12">
-//                     <Search {...this.props} />
-//                 </div>
-//             </div>
-//         )
-//     }
-// }
-
-// export default Search;
-
