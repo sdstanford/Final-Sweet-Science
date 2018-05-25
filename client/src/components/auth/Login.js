@@ -80,7 +80,7 @@ class Login extends Component {
         return(
             <div className="loginField">
             <div className="col-md-6">
-                <h3>Login Here</h3>
+                <h3>Login</h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <input name="email" className="form-control" onChange={this.onChange.bind(this)} placeholder="Email" type="email"/>

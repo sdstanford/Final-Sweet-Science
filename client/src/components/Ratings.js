@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
+import './Champions.css';
 
 class Ratings extends Component {
+
+    componentDidMount () {
+        console.log( "test on mount" )
+        document.body.classList.add( "rak-body" );
+    }
+
+    componentWillUnmount () {
+        console.log( "test on unmount" )
+        document.body.classList.remove( "rak-body" );
+    }    
+    
     render() {
         return(
             <div>
                 <div className="row">
                     <div className="col-md-4 col-md-offset-3">
-                        <h3>Ratings</h3>
+                       <br/>
+                        <h3 className="rat-h3">Ratings</h3>
+                        <br/>
                         <form>
                             <div className="form-group">
                                 <select className="form-control">
@@ -47,7 +61,7 @@ class Ratings extends Component {
                                 <label className="radio-inline"><input type="radio" name="optradio"/>Active</label>
                                 <label className="radio-inline"><input type="radio" name="optradio"/>Active or Inactive</label>
                             </div>
-                            <input type="submit" className="btn btn-danger" value="go"/>
+                            <input type="submit" className="btn btn-danger" value="Go"/>
                         </form>
                     </div>
                 </div>

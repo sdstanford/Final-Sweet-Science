@@ -1,6 +1,6 @@
 import React, {  Component } from 'react';
 import Profile from '../../components/Profile';
-import Myboxers from "../../components/myBoxers";
+import Myboxers from "../../components/Myboxers";
 import List from "../../components/List";
 import './Dashboard.css';
 

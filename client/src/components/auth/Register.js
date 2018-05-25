@@ -48,7 +48,7 @@ class Register extends Component {
     render() {
         return(
             <div className="col-md-6  registerField">
-                <h3>Register Here</h3>
+                <h3>Register</h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <input name="name" className="form-control" onChange={this.onChange.bind(this)} placeholder="Name" type="text"/> 

@@ -1817,6 +1817,10 @@ needle@^2.2.0:
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
+node-bin-setup@^1.0.0:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
+
 node-pre-gyp@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.10.0.tgz#6e4ef5bb5c5203c6552448828c852c40111aac46"
@@ -1831,6 +1835,12 @@ node-pre-gyp@^0.10.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
+
+node@^10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-10.2.0.tgz#20c94aee5d7c93fbbe5b45f3320716b60bd16f68"
+  dependencies:
+    node-bin-setup "^1.0.0"
 
 nodemon@^1.17.5:
   version "1.17.5"

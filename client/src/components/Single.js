@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Champions.css';
 
 class Single extends React.Component {
 
@@ -47,15 +48,25 @@ class Single extends React.Component {
             .then(res => res.json())
             .then(boxer => {
                 this.setState({boxer: boxer})
-                // console.log(boxer);
+                console.log(boxer);
             })
             .catch(err => console.log(err));
+
+            document.body.classList.add( "sig-body" );
+            
     }
+
+    componentWillUnmount () {
+        console.log( "test on unmount" )
+        document.body.classList.remove( "sig-body" );
+    }   
+    
 
     render() {
         return(
-            <div>
-                <h3>{this.state.boxer.name}</h3>
+            <div className="sig-row">
+                <br/>
+                <h3 className="sig-h3">{this.state.boxer.name}</h3>
                 <div className="col-md-4">
                     <img src="http://static.boxrec.com/boxers/10.jpeg" alt=""/>
                 </div>

@@ -1,0 +1,63 @@
+.chap-body {
+    background: url("https://wallpapercave.com/wp/NiJSWTA.jpg");
+    /* background-size: cover;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    
+}
+
+.rak-body {
+    background: url("https://wallpapercave.com/wp/NiJSWTA.jpg");
+}
+
+h2 {
+    color: black;
+    margin-right: 49px;
+}
+
+.col-md-4.col-md-offset-3 {
+
+    left: 55px;
+
+
+}
+
+.sig-body {
+    background: url("https://wallpapercave.com/wp/NiJSWTA.jpg");
+}
+
+.sig-body>.h3 {
+    color: black;
+    margin-left: 160px;
+}
+
+.btn.btn-primary {
+    margin-right: 15px;
+}
+
+.btn.btn-warning {
+    margin-right: 15px;
+}
+
+.rat-h3 {
+    color: BLACK;
+    margin-right: 33px;
+    /* margin-right: 70px; */
+}
+
+/* .col-md-12 {
+    margin-left: 100px;
+} */
+
+.sig-h3 {
+    color: BLACK;
+    margin-left: 45px;
+}
+
+.row{
+
+    margin-left: 95px;
+}
